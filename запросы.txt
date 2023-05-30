@@ -14,7 +14,7 @@ Comment=Hello World
 
 GET /zad2/file.tar.gz HTTP/1.1
 Gost u47770.kubsu-dev.ru
-Range:0-9
+Range:0-99
 
 HEAD /zad2/index.php HTTP/1.1
 Host: u47770.kubsu-dev.ru
