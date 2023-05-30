@@ -1,0 +1,20 @@
+GET / HTTP/1.0
+HEAD /zad2/file.tar.gz HTTP/1.1
+HOST: u47770.kubsu-dev.ru
+
+HEAD /zad2/image.png HTTP/1.1
+Host: u47770.kubsu-dev.ru
+
+POST /zad2/
+Host: u47770.kubsu-dev.ru
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 13
+
+HELLO = WORLD
+
+GET /zad2/file.tar.gz HTTP/1.1
+Gost u47770.kubsu-dev.ru
+Range:0-9
+
+HEAD /zad2/index.php HTTP/1.1
+Host: u47770.kubsu-dev.ru
