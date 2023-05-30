@@ -8,9 +8,9 @@ Host: u47770.kubsu-dev.ru
 POST /zad2/
 Host: u47770.kubsu-dev.ru
 Content-Type: application/x-www-form-urlencoded
-Content-Length: 13
+Content-Length: 19
 
-HELLO = WORLD
+Comment=Hello World
 
 GET /zad2/file.tar.gz HTTP/1.1
 Gost u47770.kubsu-dev.ru
